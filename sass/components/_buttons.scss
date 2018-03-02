@@ -1,0 +1,35 @@
+// extend class
+// standard Button dark background
+%button-standard{
+  border: 1px solid $white;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: $white;
+  padding: 0.5em 2em;
+  &:hover{
+    background-color: $red;
+    border: 1px solid $red;
+    color: $black;
+  }
+
+
+}
+
+// standard Button light background
+%button-light{
+	background-color: $blue;
+	&:hover{
+      background-color: $blue - 50;
+      border: 1px solid $blue - 50;
+      color: $white;
+    }
+}
+%tag-styles{
+  display: inline-block;
+  background-color: $blue;
+  color:$white;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,38 @@
+body{
+  font-family: $opensans;
+  font-size: 100%;
+
+  a{
+    text-decoration: none;
+    color: $black;
+  }
+  p{
+    font-size: 1em;
+    line-height: 140%;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  img{
+    max-width: 100%;
+  }
+}
+// wraper responsive
+.wrapper{
+  width: 90%;
+  margin: auto;
+  @include desktop{
+    width: 960px;
+  }
+}
+// wrapper fluid
+.wrapper-fluid{
+  width: 90%;
+  margin: auto;
+}

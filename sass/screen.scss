@@ -1,0 +1,22 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/css3";
+@import "compass/reset";
+
+
+@import "partials/mixins.scss";
+@import "modules/colors.scss";
+@import "modules/typography.scss";
+@import "components/buttons.scss";
+
+@import "partials/base.scss";
+@import "partials/header.scss";
+@import "partials/front-page.scss";
+@import "partials/footer.scss";
+@import "partials/page.scss";
+@import "components/contact-form.scss";
+@import "components/about-me.scss";
+@import "components/banner.scss";
+@import "components/burger-menu.scss";

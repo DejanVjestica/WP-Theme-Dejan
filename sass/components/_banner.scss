@@ -1,0 +1,54 @@
+// banner
+#banner{
+  color: $white;
+  background-size: cover;
+  padding: 6em 0 8em;
+  max-width: 100%;
+  height: auto;
+  h2{
+    margin-bottom: 0.5em;
+  }
+  p{
+    margin-bottom: 2em;
+  }
+  button{
+    @extend %button-standard;
+  }
+}
+// skills
+#skills{
+  #gallery-1{
+    padding: 3em 0 3em;
+
+    @include display-flex(flex);
+    @include justify-content(center);
+    @include flex-wrap(wrap);
+    img{
+      max-height: 50px;
+      width: auto;
+    }
+    & > *{
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+      @include mobile{
+
+
+      }
+      @include mobileBig{
+        margin-right: 1.5em;
+        margin-bottom: 1.5em;
+      }
+      @include tablet-min{
+        margin-right: 2em;
+        margin-bottom: 2em;
+      }
+      @include desktop{
+  margin-bottom: 3em;
+
+      }
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

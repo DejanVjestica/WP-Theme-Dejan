@@ -1,0 +1,165 @@
+footer{
+  width: 100%;
+  background-color: $darkgrey;
+  color:$white;
+  img{
+    margin-right: 1em;
+  }
+  #widget-footer{
+    padding: 2em 0;
+    @include display-flex(flex);
+    @include flex-wrap(wrap);
+    @include flex-direction(column);
+    // media querie
+    @include tablet-min{
+      @include flex-direction(row);
+    }
+    @include desktop{
+    }
+    & > *{
+      @include flex(1);
+      margin-bottom: 3em;
+
+    }
+    .about, #grouped-fields{
+            margin-right: 2em;
+    }
+    // child 1 About me
+    .about{
+      @include display-flex(flex);
+      @include flex-basis(100%);
+
+      @include tablet-min{
+            @include flex(2);
+      }
+      @include desktop{
+
+        @include flex-basis(0);
+        @include justify-content(space-between);
+      }
+    }
+
+    // child2 sozial networks
+    #grouped-fields{
+      .custom-filds{
+		  color: $white;
+        margin-bottom: 2em;
+        @include display-flex(flex);
+		@include align-items(center);
+		
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+    // child 3 footer menu
+    #nav_menu-2{
+      ul{
+        @include desktop-max{
+          @include display-flex(flex);
+          @include justify-content(center);
+          li{
+            margin-right: 1em;
+          }
+        };
+      }
+        li{
+          margin-bottom: 1em;
+        }
+      	a{
+          color: $white;
+          display: block;
+        }
+        @include desktop-max{
+          @include flex-basis(100%);
+          // @include display-flex(flex);
+        };
+    }
+    // child4 copyright
+    #copyright{
+      @include flex-basis(100%);
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+// // footer
+// footer{
+//
+//
+//   #widget-footer{
+//     padding: 2em 0;
+//     // flexbox
+//
+//     @include justify-content(space-between);
+//
+//     // media querie
+//     @include tablet-min{
+//     @include flex-direction(row);
+//     }
+//     & > * {
+//       @include flex-basis(100%);
+//       @include justify-content(space-between);
+//     }
+//     .about, #grouped-fields{
+//
+//       @include tablet-min{
+//         	@include flex-basis(40%);
+//       };
+//     }
+//     #menu-haupt-1{
+//
+//     }
+//     @include tablet-max{
+//       // @include flex-basis(40%);
+//     }
+//     .about{
+//       margin-bottom: 2em;
+//       @include display-flex(flex);
+//
+//       img{
+//         // @include flex(1);
+//         margin-right: 1em;
+//       }
+//       p{
+//         // @include flex(2);
+//       }
+//
+//
+//     }
+//     // social networks
+//     #grouped-fields{
+//       // @include flex(2);
+//       .custom-filds{
+//         margin-bottom: 1em;
+//         @include display-flex(flex);
+//         img{
+//           margin-right: 1em;
+//         }
+//       }
+//
+//     }
+//     // footer menu
+//     #nav_menu-2{
+//       // @include flex(1);
+//       margin: 2em 0;
+//
+//     }
+//     #menu-haupt-1{
+//       @include display-flex(flex);
+//       @include flex-wrap(wrap);
+//       @include justify-content(start);
+//       // @include flex-direction(column);
+//
+//       a{
+//         padding-right: 1em;
+//         color: $white;
+//       }
+//     }
+//     .copyright{
+//       @include flex-basis(100%);
+//       text-align: center;
+//       margin-bottom: 0;
+//     }
+//   }
+// }

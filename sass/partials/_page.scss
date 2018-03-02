@@ -1,0 +1,59 @@
+// header color
+.background-blue{
+	background-color: $blue;
+	a{
+		color: white;
+	}
+
+}
+// Page styles
+#page{
+  @include display-flex(flex);
+  @include flex-direction(column);
+  padding: 2em 0;
+
+  @include handy-min{
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    & > *{
+      @include flex(1);
+    }
+  }
+  button{
+	  @extend %button-standard;
+	  @extend %button-light;
+  }
+  img{
+    height: auto;
+  }
+  h2{
+    @include flex-basis(100%);
+    padding-bottom: 0.5em;
+  }
+  p{
+    padding-bottom: 1em;
+    @include handy-min{
+      @include flex(2);
+    }
+  }
+  .gallery{
+    padding:2em 0 3em;
+    @include display-flex(flex);
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+    @include handy-min{
+      @include flex-basis(100%);
+    }
+    .gallery-item{
+      padding-bottom:2em;
+      @include handy-min{
+        @include flex-basis(48%);
+        // @include flex(1);
+        padding-right: 1em;
+        &:nth-child(even){
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}

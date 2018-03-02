@@ -1,0 +1,700 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/components/_buttons.scss */
+#page button, #sidebar-contact form .wpforms-submit-container button, #banner button {
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: white;
+  padding: 0.5em 2em;
+}
+/* line 10, ../sass/components/_buttons.scss */
+#page button:hover, #sidebar-contact form .wpforms-submit-container button:hover, #banner button:hover {
+  background-color: #F39C11;
+  border: 1px solid #F39C11;
+  color: black;
+}
+
+/* line 20, ../sass/components/_buttons.scss */
+#page button {
+  background-color: #14a3a9;
+}
+/* line 22, ../sass/components/_buttons.scss */
+#page button:hover {
+  background-color: #007177;
+  border: 1px solid #007177;
+  color: white;
+}
+
+/* line 28, ../sass/components/_buttons.scss */
+#front-page article aside ul li {
+  display: inline-block;
+  background-color: #14a3a9;
+  color: white;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* line 1, ../sass/partials/_base.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+/* line 5, ../sass/partials/_base.scss */
+body a {
+  text-decoration: none;
+  color: black;
+}
+/* line 9, ../sass/partials/_base.scss */
+body p {
+  font-size: 1em;
+  line-height: 140%;
+}
+/* line 13, ../sass/partials/_base.scss */
+body h3 {
+  font-size: 1.5em;
+}
+/* line 16, ../sass/partials/_base.scss */
+body h1 {
+  font-size: 3em;
+}
+/* line 19, ../sass/partials/_base.scss */
+body h2 {
+  font-size: 2em;
+}
+/* line 22, ../sass/partials/_base.scss */
+body img {
+  max-width: 100%;
+}
+
+/* line 27, ../sass/partials/_base.scss */
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 1024px) {
+  /* line 27, ../sass/partials/_base.scss */
+  .wrapper {
+    width: 960px;
+  }
+}
+
+/* line 35, ../sass/partials/_base.scss */
+.wrapper-fluid {
+  width: 90%;
+  margin: auto;
+}
+
+/* line 2, ../sass/partials/_header.scss */
+header {
+  /* w3school menu icon */
+  /* Rotate first bar */
+  /* Fade out the second bar */
+  /* Rotate last bar */
+  /* w3school menu icon endet hier */
+}
+/* line 3, ../sass/partials/_header.scss */
+header .menubar {
+  height: 60px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 10, ../sass/partials/_header.scss */
+header #mobile-nav {
+  display: none;
+  position: fixed;
+  top: 105px;
+  right: 0;
+  background-color: #14a3a9;
+}
+/* line 19, ../sass/partials/_header.scss */
+header #mobile-nav a {
+  display: block;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+/* line 24, ../sass/partials/_header.scss */
+header #mobile-nav a:hover {
+  background-color: #007177;
+}
+@media (min-width: 768px) {
+  /* line 10, ../sass/partials/_header.scss */
+  header #mobile-nav {
+    display: none;
+  }
+}
+/* line 34, ../sass/partials/_header.scss */
+header #desktop-nav ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/* line 38, ../sass/partials/_header.scss */
+header #desktop-nav a {
+  display: block;
+  text-align: center;
+  padding: 22px 16px;
+  text-decoration: none;
+}
+/* line 43, ../sass/partials/_header.scss */
+header #desktop-nav a:hover {
+  background-color: #14a3a9;
+  color: white;
+}
+@media (max-width: 768px) {
+  /* line 33, ../sass/partials/_header.scss */
+  header #desktop-nav {
+    display: none;
+  }
+}
+/* line 53, ../sass/partials/_header.scss */
+header .container {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  /* line 53, ../sass/partials/_header.scss */
+  header .container {
+    display: none;
+  }
+}
+/* line 59, ../sass/partials/_header.scss */
+header .bar1, header .bar2, header .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #383838;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* line 67, ../sass/partials/_header.scss */
+header .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+/* line 72, ../sass/partials/_header.scss */
+header .change .bar2 {
+  opacity: 0;
+}
+/* line 76, ../sass/partials/_header.scss */
+header .change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* line 3, ../sass/partials/_front-page.scss */
+#front-page article {
+  margin-bottom: 6em;
+  margin-top: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  /* line 3, ../sass/partials/_front-page.scss */
+  #front-page article {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+}
+/* line 12, ../sass/partials/_front-page.scss */
+#front-page article > * {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+/* line 15, ../sass/partials/_front-page.scss */
+#front-page article figure {
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+@media (min-width: 768px) {
+  /* line 15, ../sass/partials/_front-page.scss */
+  #front-page article figure {
+    width: 50%;
+    height: auto;
+  }
+}
+/* line 23, ../sass/partials/_front-page.scss */
+#front-page article figure img {
+  height: auto;
+}
+@media (min-width: 768px) {
+  /* line 27, ../sass/partials/_front-page.scss */
+  #front-page article aside {
+    width: 40%;
+  }
+}
+/* line 31, ../sass/partials/_front-page.scss */
+#front-page article aside p {
+  padding: 0.5em 0;
+}
+
+/* line 1, ../sass/partials/_footer.scss */
+footer {
+  width: 100%;
+  background-color: #383838;
+  color: white;
+}
+/* line 5, ../sass/partials/_footer.scss */
+footer img {
+  margin-right: 1em;
+}
+/* line 8, ../sass/partials/_footer.scss */
+footer #widget-footer {
+  padding: 2em 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  /* line 8, ../sass/partials/_footer.scss */
+  footer #widget-footer {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+}
+/* line 19, ../sass/partials/_footer.scss */
+footer #widget-footer > * {
+  -webkit-flex: 1;
+  flex: 1;
+  margin-bottom: 3em;
+}
+/* line 24, ../sass/partials/_footer.scss */
+footer #widget-footer .about, footer #widget-footer #grouped-fields {
+  margin-right: 2em;
+}
+/* line 28, ../sass/partials/_footer.scss */
+footer #widget-footer .about {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+}
+@media (min-width: 768px) {
+  /* line 28, ../sass/partials/_footer.scss */
+  footer #widget-footer .about {
+    -webkit-flex: 2;
+    flex: 2;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 28, ../sass/partials/_footer.scss */
+  footer #widget-footer .about {
+    -webkit-flex-basis: 0;
+    flex-basis: 0;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+}
+/* line 44, ../sass/partials/_footer.scss */
+footer #widget-footer #grouped-fields .custom-filds {
+  color: white;
+  margin-bottom: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 50, ../sass/partials/_footer.scss */
+footer #widget-footer #grouped-fields .custom-filds:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 1024px) {
+  /* line 57, ../sass/partials/_footer.scss */
+  footer #widget-footer #nav_menu-2 ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  /* line 61, ../sass/partials/_footer.scss */
+  footer #widget-footer #nav_menu-2 ul li {
+    margin-right: 1em;
+  }
+}
+/* line 66, ../sass/partials/_footer.scss */
+footer #widget-footer #nav_menu-2 li {
+  margin-bottom: 1em;
+}
+/* line 69, ../sass/partials/_footer.scss */
+footer #widget-footer #nav_menu-2 a {
+  color: white;
+  display: block;
+}
+@media (max-width: 1024px) {
+  /* line 56, ../sass/partials/_footer.scss */
+  footer #widget-footer #nav_menu-2 {
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+  }
+}
+/* line 79, ../sass/partials/_footer.scss */
+footer #widget-footer #copyright {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* line 2, ../sass/partials/_page.scss */
+.background-blue {
+  background-color: #14a3a9;
+}
+/* line 4, ../sass/partials/_page.scss */
+.background-blue a {
+  color: white;
+}
+
+/* line 10, ../sass/partials/_page.scss */
+#page {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 2em 0;
+}
+@media (min-width: 479px) {
+  /* line 10, ../sass/partials/_page.scss */
+  #page {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  /* line 18, ../sass/partials/_page.scss */
+  #page > * {
+    -webkit-flex: 1;
+    flex: 1;
+  }
+}
+/* line 26, ../sass/partials/_page.scss */
+#page img {
+  height: auto;
+}
+/* line 29, ../sass/partials/_page.scss */
+#page h2 {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  padding-bottom: 0.5em;
+}
+/* line 33, ../sass/partials/_page.scss */
+#page p {
+  padding-bottom: 1em;
+}
+@media (min-width: 479px) {
+  /* line 33, ../sass/partials/_page.scss */
+  #page p {
+    -webkit-flex: 2;
+    flex: 2;
+  }
+}
+/* line 39, ../sass/partials/_page.scss */
+#page .gallery {
+  padding: 2em 0 3em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+@media (min-width: 479px) {
+  /* line 39, ../sass/partials/_page.scss */
+  #page .gallery {
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+  }
+}
+/* line 47, ../sass/partials/_page.scss */
+#page .gallery .gallery-item {
+  padding-bottom: 2em;
+}
+@media (min-width: 479px) {
+  /* line 47, ../sass/partials/_page.scss */
+  #page .gallery .gallery-item {
+    -webkit-flex-basis: 48%;
+    flex-basis: 48%;
+    padding-right: 1em;
+  }
+  /* line 53, ../sass/partials/_page.scss */
+  #page .gallery .gallery-item:nth-child(even) {
+    padding-right: 0;
+  }
+}
+
+/* line 2, ../sass/components/_contact-form.scss */
+#sidebar-contact {
+  background-color: #535353;
+  color: white;
+  padding: 2em 0;
+}
+/* line 6, ../sass/components/_contact-form.scss */
+#sidebar-contact form {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  flex-flow: wrap;
+}
+/* line 10, ../sass/components/_contact-form.scss */
+#sidebar-contact form #wpform-field-hp {
+  display: none;
+}
+/* line 13, ../sass/components/_contact-form.scss */
+#sidebar-contact form .wpforms-description {
+  margin-bottom: 2em;
+}
+/* line 16, ../sass/components/_contact-form.scss */
+#sidebar-contact form .wpforms-field-container {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  /* line 16, ../sass/components/_contact-form.scss */
+  #sidebar-contact form .wpforms-field-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: wrap;
+    flex-flow: wrap;
+  }
+  /* line 21, ../sass/components/_contact-form.scss */
+  #sidebar-contact form .wpforms-field-container > * {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+  }
+  /* line 24, ../sass/components/_contact-form.scss */
+  #sidebar-contact form .wpforms-field-container #wpforms-44-field_0-container {
+    margin-right: 1em;
+  }
+  /* line 27, ../sass/components/_contact-form.scss */
+  #sidebar-contact form .wpforms-field-container #wpforms-44-field_3-container {
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 32, ../sass/components/_contact-form.scss */
+  #sidebar-contact form .wpforms-field-container #wpforms-44-field_1-container {
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+  }
+}
+/* line 37, ../sass/components/_contact-form.scss */
+#sidebar-contact form label, #sidebar-contact form input, #sidebar-contact form textarea {
+  width: 100%;
+  display: block;
+  border: none;
+}
+/* line 42, ../sass/components/_contact-form.scss */
+#sidebar-contact form label {
+  margin-bottom: 0.5em;
+}
+/* line 45, ../sass/components/_contact-form.scss */
+#sidebar-contact form input {
+  margin-bottom: 1em;
+  height: 3em;
+}
+/* line 49, ../sass/components/_contact-form.scss */
+#sidebar-contact form textarea {
+  margin-bottom: 2em;
+  height: 8em;
+}
+/* line 53, ../sass/components/_contact-form.scss */
+#sidebar-contact form .wpforms-submit-container {
+  width: 100%;
+}
+
+/* line 3, ../sass/components/_about-me.scss */
+#sidebar-about-me {
+  background-color: #858585;
+}
+/* line 5, ../sass/components/_about-me.scss */
+#sidebar-about-me #text-3 {
+  color: white;
+  padding: 3em 0;
+}
+/* line 8, ../sass/components/_about-me.scss */
+#sidebar-about-me #text-3 h2 {
+  margin-bottom: 1em;
+}
+
+/* line 2, ../sass/components/_banner.scss */
+#banner {
+  color: white;
+  background-size: cover;
+  padding: 6em 0 8em;
+  max-width: 100%;
+  height: auto;
+}
+/* line 8, ../sass/components/_banner.scss */
+#banner h2 {
+  margin-bottom: 0.5em;
+}
+/* line 11, ../sass/components/_banner.scss */
+#banner p {
+  margin-bottom: 2em;
+}
+
+/* line 20, ../sass/components/_banner.scss */
+#skills #gallery-1 {
+  padding: 3em 0 3em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/* line 26, ../sass/components/_banner.scss */
+#skills #gallery-1 img {
+  max-height: 50px;
+  width: auto;
+}
+/* line 30, ../sass/components/_banner.scss */
+#skills #gallery-1 > * {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 30, ../sass/components/_banner.scss */
+  #skills #gallery-1 > * {
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+@media (min-width: 768px) {
+  /* line 30, ../sass/components/_banner.scss */
+  #skills #gallery-1 > * {
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/components/_banner.scss */
+  #skills #gallery-1 > * {
+    margin-bottom: 3em;
+  }
+}
+/* line 50, ../sass/components/_banner.scss */
+#skills #gallery-1:last-child {
+  margin-right: 0;
+}
+
+/* w3school menu icon */
+/* line 2, ../sass/components/_burger-menu.scss */
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  top: 55px;
+  right: 5%;
+}
+
+/* line 9, ../sass/components/_burger-menu.scss */
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+/* line 17, ../sass/components/_burger-menu.scss */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+/* line 22, ../sass/components/_burger-menu.scss */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+/* line 26, ../sass/components/_burger-menu.scss */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* line 31, ../sass/components/_burger-menu.scss */
+.change .bar1, .change .bar3 {
+  background-color: #14a3a9;
+}
